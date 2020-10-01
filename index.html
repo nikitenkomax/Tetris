@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="info">
+      <button class="start-btn">Start</button>
+      <button class="pause-btn">Pause</button>
+      <div class="score">SCORE: <span id="score">0</span></div>
+      <div class="level">LVL: <span id="level">0</span></div>
+      <div class="lines">LINE: <span id="lines">0</span></div>
+      <div class="main"></div>
+      <div class="n">
+        <div class="next-tetro"></div>
+      </div>
+      <div class="trt">TRT: <span class="tetris-percent"></span></div>
+      <div class="wait">
+        <div class="wait-cell white cell"></div>
+        <div class="wait-cell white cell"></div>
+        <div class="wait-cell white cell"></div>
+        <div class="wait-cell white cell"></div>
+        <span class="wait-current"></span>
+      </div>
+    </div>
+
+    <div class="modal-mask">
+      <span class="game-over">Game Over</span>
+
+      <span class="start-new-game">Click to Start a New Game</span>
+    </div>
+  </body>
+</html>
